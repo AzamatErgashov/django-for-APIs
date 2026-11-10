@@ -38,7 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    #mylocal
     'books.apps.BooksConfig',
+    'api.apps.ApiConfig'
+    
+    #DRF
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
