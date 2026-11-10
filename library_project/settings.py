@@ -40,7 +40,7 @@ INSTALLED_APPS = [
 
     #mylocal
     'books.apps.BooksConfig',
-    'api.apps.ApiConfig'
+    'api.apps.ApiConfig',
     
     #DRF
     'rest_framework',

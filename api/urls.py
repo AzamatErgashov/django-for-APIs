@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import BookAPiView
+from .views import BookAPIView
 
 urlpatterns = [
     path('', BookAPIView.as_view())
